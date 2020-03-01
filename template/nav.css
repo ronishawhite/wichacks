@@ -1,8 +1,17 @@
 table.center {
-  margin-left:300px; 
+  margin-left:400px; 
   margin-right:auto;
 
   width:40%; 
 
   margin-top: 300px;
+}
+
+body {
+  
+  background: url('food.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
