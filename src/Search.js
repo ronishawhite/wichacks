@@ -37,7 +37,8 @@ class Search extends Component {
           type="text"
           placeholder="Search"
           onChange={event => this.handleOnChange(event)}
-          value={this.state.searchValue} 
+          value={this.state.searchValue}
+
         />
         <button onClick={this.handleSearch} >Search</button>
         {this.state.meals ? (

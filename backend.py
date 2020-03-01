@@ -6,6 +6,7 @@ app = Flask(__name__, template_folder='template')
 # globals(search = "")
 search = ""
 a = ""
+s=""
 
 @app.route('/')
 def hello_world():
@@ -18,7 +19,7 @@ def getValue():
 
     from check_beauty_calories import FinalCals
     a = FinalCals(search)
-    return render_template('pass.html', n = a)
+    return render_template('pass.html', n = a,s=search)
     # return WegmanDetail(search)
 
 
